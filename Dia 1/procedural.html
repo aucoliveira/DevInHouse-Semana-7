@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo código procedural</title>
+</head>
+<body>
+    <script>
+        let nomeAluno1 = 'Augusto';
+        let idadeAluno1 = 32;
+        let turmaAluno1 = '9A';
+        
+        let nomeAluno2 = 'Giovanna';
+        let idadeAluno2 = 8;
+        let turmaAluno2 = '2B';
+
+        function imprimeAluno1() {
+            console.log(`Ǹome ${nomeAluno1} com idade de ${idadeAluno1} e turma ${turmaAluno1} `);
+        }
+
+        function imprimeAluno2() {
+            console.log(`Ǹome ${nomeAluno2} com idade de ${idadeAluno2} e turma ${turmaAluno2} `);
+        }
+        var elemento = document.createElement('span');
+        elemento.innerText = `Ǹome ${nomeAluno1} com idade de ${idadeAluno1} e turma ${turmaAluno1}\n`;
+        const aluno2 = document.createElement('span');
+        aluno2.innerText = `Ǹome ${nomeAluno2} com idade de ${idadeAluno2} e turma ${turmaAluno2}\n`; 
+
+        const pai = document.querySelector('body');
+        pai.appendChild(elemento);
+        pai.appendChild(aluno2);
+
+
+    </script>
+</body>
+</html>
